@@ -45,3 +45,54 @@ h3{
 .btn:hover{
     transform: scale(1.1);
 }
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.model{
+    background-color: white;
+    width: 350px;
+    padding: 10px 5px;
+    position: fixed;
+}
+.close{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.form_section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+.input_boxes{
+    height: 20px;
+    margin: 10px; 
+    width: 300px; 
+}
+.btn_new{
+    margin: 10px auto; 
+    border: 2px solid #c65972 ;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #ff8ba7;
+    box-shadow: 0px 0px 2px 2px #c65972;
+    color: black;
+    cursor: pointer;
+}
+.btn_new:hover{
+    transform: scale(1.1);
+}
