@@ -12,7 +12,7 @@
             <h4>For Designers</h4>
             <h2>Join the world’s best creative community</h2>
             <h3>Build your brand, grow your skills, and land your dream projects </h3>
-            <button class="btn">
+            <button class="btn" onclick="openoverlay()">
                 Create Your Profile
             </button>
         </div>
@@ -20,9 +20,9 @@
            <img src="./Images/background.jpg" alt="background" class="bg-img"/> 
         </div>
 
-        <div class="overlay">
+        <div class="overlay" id="overlay">
            <div class="model">
-            <img src="./Images/close.png" class="close"/>
+            <img src="./Images/close.png" class="close" onclick="closeoverlay()"/>
                <form  class="form_section">
                    <input type="text" placeholder="Enter Your Name" class="input_boxes" required/>
                    <input type="email" placeholder="Enter Email" class="input_boxes" required/>
@@ -32,5 +32,6 @@
            </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
